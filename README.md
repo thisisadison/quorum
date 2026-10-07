@@ -2,8 +2,8 @@
 
 1. Clone the repo
    \`\`\`bash
-   git clone https://github.com/thisisadison/LLM-Label-Audit
-   cd LLM-Label-Audit
+   git clone https://github.com/thisisadison/quorum
+   cd quorum
    \`\`\`
 
 2. Create a virtual environment
