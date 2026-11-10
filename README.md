@@ -61,9 +61,9 @@ NLTK stopwords are downloaded automatically when the EDA notebook runs.
 
 **Notebooks:** open `notebooks/dataset_selection.ipynb` or `notebooks/fyp_eda.ipynb` in Jupyter or VS Code, select the `venv` kernel, and run all cells.
 
-**Data preparation:** prints the size and class distribution of the pool and test splits.
+**Data preparation:** imports takala financial phrase bank, create custom hash id, remove duplicates, perform pool/test split, convert pandas df into csv.
 ```bash
-python src/quorum/data_prep.py
+PYTHONPATH=src python scripts/run_prepare_data.py
 ```
 
 ## References
