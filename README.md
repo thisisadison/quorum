@@ -1,4 +1,8 @@
-# quorum
+<p align="center">
+  <img src="assets/quorum_banner.gif" alt="Quorum" width="640">
+</p>
+
+# Quorum
 
 A scoring framework for evaluating the quality of LLM-generated sentiment labels on financial text.
 
