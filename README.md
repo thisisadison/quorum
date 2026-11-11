@@ -44,7 +44,7 @@ quorum/
 │   ├── dataset_selection.ipynb  # candidate datasets and selection rationale
 │   ├── fyp_eda.ipynb            # exploratory data analysis of Financial PhraseBank
 │   ├── llm_pilot.ipynb          # LLM labelling pilot (runs on Kaggle GPU)
-│   └── agreement_analysis.ipynb # agreement between the LLMs on the pilot
+│   └── llm_pilot_analysis.ipynb # agreement between the LLMs on the pilot
 ├── scripts/
 │   └── run_prepare_data.py      # creates the pool/test split
 ├── src/
@@ -91,7 +91,7 @@ PYTHONPATH=src python scripts/run_prepare_data.py
 2. Accept the model terms for Gemma and Llama on Hugging Face, create a read token, and add it in Kaggle under Add-ons → Secrets as `HF_TOKEN`.
 3. Set the accelerator to GPU T4 x2 and run all cells. Results are saved to `/kaggle/working/`; download them into `data/pilot/`.
 
-**Agreement analysis:** open `notebooks/agreement_analysis.ipynb` locally once the pilot CSVs are in `data/pilot/`.
+**Agreement analysis:** open `notebooks/llm_pilot_analysis.ipynb` locally once the pilot CSVs are in `data/pilot/`.
 
 ## References
 
